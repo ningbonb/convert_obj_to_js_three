@@ -29,5 +29,8 @@ Three.js 在 R94 版本移除了该转换器。取而代之的 `obj2three.js` �
 python convert_obj_three.py -i model.obj -o model.js
 ```
 
+## 总结
+
 - `model.obj` 为输入文件
 - `model.js` 为输出文件，可以转为 `json` 文件
+- `model.js` 文件中的 `vertices` 属性即为模型的全部顶点信息
